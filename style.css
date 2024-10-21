@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    margin:0;
+    font-family: "Salsa", cursive;
+    background-color: #f99501;
+}
+.design{
+    width: 220px;
+    margin-bottom:-180px;
+}
+.hero-section{
+    background-color: #f99501;
+    background-image: url("images/background.png");
+    background-size: cover;
+}
+
+.wishes{
+        font-family: "Salsa", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 46px;
+        max-width: 700px;
+        margin-top: 2rem;
+    
+      }
+.paragraph-and-audio{
+    margin-left: 15rem;
+}
+audio::-webkit-media-controls-enclosure {
+    background-color: #fBD8A4;
+}
+.audio-music{
+    font-family: "Salsa", cursive;
+    max-width: max-content;
+    min-height: 61px;
+    background-color: #fBD8A4;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left:20px;
+}
+.laxmi-ganesh{
+    background-color: #f99501;
+    padding-top: 1px;
+    padding-inline:1rem;
+    }
+    .laxmi-ganesha-img{
+        max-width: 900px;
+        width: 100%;
+        display: block;
+        margin-inline: auto;
+        margin-top: 20px;
+    }
+    .line{
+        display: block;
+        margin-inline:auto;
+        max-width: 800px;
+        width: 100%;
+    }
+    .wish{
+        font-size: 60px;
+        font-family: Style Script;
+        text-align: center;
+        
+    }
+    .white-card-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .white-card{
+        background-color: white;
+        max-width: 500px;
+        font-size: 32px;
+        padding: 40px;
+        border-radius: 20px;
+    }
+    .lil-girl{
+        width: 260px;
+        margin-left: -75px;
+    }
+
+    .laxmi-ganesh-card{
+        background-color: white;
+        border-radius: 24px;
+        padding:4rem;
+        display: flex;
+        max-width: 900px;
+        width: 100%;
+        margin-inline:auto;
+        margin-top: 20px;
+    }
+    .laxmi-ganesh-card img{
+        width: 50%;
+    }
+    .diwali{
+        font-size: 24px;
+        text-align: center;
+    }
+    .name{
+        font-size: 20px;
+        text-align: center;
+    }
+@media (max-width:840px) {
+    .first-deepak{
+        display: block;
+        margin-left: auto;
+    }
+    .second-deepak{
+        display: none;
+    }
+    .paragraph-and-audio{
+        margin-left: 1rem;
+    }
+    .design{
+        margin-bottom: 0px;
+    }
+    .play{
+        display:none;
+    }
+    .tag{
+        display:none;
+    }
+    .audio-music{
+        max-width: max-content;
+    }
+    .wishes{
+    font-size: 32px;
+    }
+    .white-card{
+        font-size: 18px;
+        padding-block:1rem;
+        padding-left: 4rem;
+    }
+    .lil-girl{
+        width: 160px;
+    }
+    .laxmi-ganesh-card{
+        padding-block:1rem;
+        padding-left: 4rem;
+    }
+}
+
+@media (max-width:540px) {
+    .first-deepak{
+        width:100%;
+    }
+    .wishes{
+        font-size:28px;
+        }
+    .wish{
+        font-size: 32px;
+    }
+}
+
